@@ -167,6 +167,7 @@ ul, ol, li {
 }
 .pricing__card-bottom {
   font-size: 19px;
+  border-top: 2px;
 }
 .pricing__card-bottom p, .pricing__card-bottom ol, .pricing__card-bottom ul li {
   font-size: 19px;

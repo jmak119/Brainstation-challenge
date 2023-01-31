@@ -13,8 +13,41 @@
 
     <style>
         /* add your styles below: */
+        .pricing__card-top {
+            border-bottom: 2px solid black;
+        }
+        
+        .features-details {
+            padding: 0 5%;
+            background: #bdd1f8;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
 
+        .features-details h3 {
+            margin-left: 5%;
+        }
 
+        .details-center {
+            text-align: center; 
+        }
+
+        .no-padding {
+            padding-left: 0;
+        }
+
+        .features__container h4 {
+            font-size: 26px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .features__container p {
+            font-size: 19px;
+            margin: 0;
+            margin-bottom: 20px;
+            color: gray;
+        }
     </style>
 
 </head>
@@ -49,6 +82,8 @@
             <h2 class="header__subtitle">Why Choose?</h2>
             <p class="header__copy">
                 At <span class="header__copy--bold">F+F</span> we believe that you shouldn’t have to pick between a stunning product and one that works.  <span class="header__copy--bold">No compromises.</span> Just an outstanding wrist watch, built to last.</p>
+            <p>Minimal, yet <span class="header__copy--uppercase header__copy--bold">sharp</span></p>
+            <p>Modern, yet <span class="header__copy--uppercase header__copy--bold">timeless</span></p>
         </div>
     </header>
     
@@ -83,6 +118,41 @@
                 </div>
             </div>
         </div>
+
+        <div>
+            <div class="features-details">
+                <h3 class="pricing__title">Details:</h3>
+                <div class="features__container no-padding">
+                    <div class="features__column">
+                        <img src="../watch-turn.png" alt="watch">
+                    </div>
+                    <div class="features__column details-center">
+                        <h4>A Massive 1.5 Inch Touch Screen</h4>
+                        <p>Size is what matters when it comes to a smart watch screen. Read all your notifications with plenty of space.
+                        </p>
+                        <h4>Mix and Match Designs</h4>
+                        <p>Personalize your watch face to match your own unique style with many combinations of background images, clock styles and colors.
+                        </p>
+                        <h4>Water Resistant up to 7 Feet</h4>
+                        <p>IP68 Weatherproof rating. Fit to withstand dust, dirt and sand and resistant to submersion up to a maximum depth of 7 feet underwater for up to 30 minutes.
+                        </p>
+                    </div>
+                    <div class="features__column details-center">
+                        <h4>Tracking your Steps, Heart Rate & Sleep.</h4>
+                        <p>Check out your step progress during the day with the in app-tracker. Keep an eye on your heart rate easily and conveniently. And when you’re ready for your head to hit the pillow, track that too. 
+                        </p>
+                        <h4>Notifications from Popular Apps</h4>
+                        <p>Get all your notifications from all your accounts conveniently on your wrist 
+                        </p>
+                        <h4>Up to 10 Days of Battery Life</h4>
+                        <p>With a battery capacity up to 300mAh, you’ll have no problem getting through the week with plenty of charge to spare. 
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
         <div id="pricing" class="pricing">
             <div class="pricing__container">
                 <h3 class="pricing__title">Pricing:</h3>
@@ -94,6 +164,12 @@
                         </div>
                         <div class="pricing__card-bottom">
                            <!-- add code here for pricing -->
+                           <p>Package includes the following:</p>
+                           <ul>
+                                <li>Watch face</li>
+                                <li>Interchangeable band (white)</li>
+                                <li>Charging cable</li>
+                           </ul>
                         </div>
                     </div>
                     <div class="pricing__card">
@@ -102,7 +178,11 @@
                             <p class="pricing__card-price">$99</p>
                         </div>
                         <div class="pricing__card-bottom">
-                            
+                            <p>Package includes the following:</p>
+                            <ul>
+                                <li>Everything in Package 1</li>
+                                <li>Interchangeable band (black)</li>
+                           </ul>
                         </div>
                     </div>
                     <div class="pricing__card">
@@ -111,7 +191,12 @@
                             <p class="pricing__card-price">$109</p>
                         </div>
                         <div class="pricing__card-bottom">
-                            
+                            <p>Package includes the following:</p>
+                            <ul>
+                                <li>Everything in Package 2</li>
+                                <li>Extra charging cable</li>
+                                <li>Warranty for 5 years</li>
+                           </ul>
                         </div>
                     </div>
                 </div>

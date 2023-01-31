@@ -1,0 +1,14 @@
+Challenge 2: Pseudocode
+
+Let maxNumber represent the biggest number, set it to zero to start
+While there are still numbers left in the list
+	Look at the next number in the list
+	Compare it to the maxNumber
+		If next number is smaller than maxNumber
+			Set maxNumber to that number
+Report maxNumber as the biggest in the list
+
+
+Solution:
+
+In line 5, it should say the next number is "bigger" than maxNumber rather than smaller as we are looking for the biggest number and we set maxNumber to that number only if it is bigger.
