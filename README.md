@@ -63,6 +63,7 @@ Get all your notifications from all your accounts conveniently on your wrist
 Up to 10 Days of Battery Life
 With a battery capacity up to 300mAh, you’ll have no problem getting through the week with plenty of charge to spare. 
 Furthermore, you may go beyond the basic requirements above to showcase your current HTML and CSS skills, including any skills not covered in the Admissions Challenge such as Flexbox or CSS animations.how
+	
 Challenge 2: Pseudocode
 The intended functionality of the program below is to take a list of more than 1000 numbers (not in sequence) and determine the biggest number in the list. Identify any error(s) within this pseudocode solution and provide an explanation on why you identified this as a potential problem.
 
